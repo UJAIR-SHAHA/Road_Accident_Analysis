@@ -3,6 +3,8 @@
 ## Overview
 The Road Accident Analysis project aims to uncover key insights and patterns from accident data using Tableau. This project provides a visual representation of accident trends, locations, causes, and other influencing factors to help stakeholders understand and address safety issues on roads.
 
+[Click here to see dashboard](https://public.tableau.com/app/profile/ujair.shaha/viz/Road_Accident_Analysis_17369269420400/RoadAccident_Dashboard?publish=yes)
+
 ## Objectives
 - Analyze road accident data to identify trends and patterns.
 - Visualize key metrics such as accident severity, frequency, and contributing factors.
