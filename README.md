@@ -16,14 +16,21 @@ The dataset used in this project includes the following attributes:
 - **Road Surface Conditions:** Information on whether the road was wet, dry, or icy.
 - **Vehicle Types:** Types of vehicles involved in the accidents.
 - **Casualties:** Number of people injured or killed.
-- **Accident Causes:** Reasons or contributing factors for the accident (e.g., speeding, drunk driving).
+- **Accident Severity:** Classification of accidents based on the level of impact (e.g., slight, serious, fatal).
+- **Light Condition:** Lighting conditions during the accident (e.g., daylight, night with streetlights).
+- **Number of Vehicles:** Total vehicles involved in each accident.
+- **Road Type:** Type of road where the accident occurred (e.g., single carriageway, dual carriageway,roundabout,one way street,slip road).
+- **Urban or Rural Area:** Whether the accident took place in an urban or rural area.
 
-<!-- ## Key Visualizations -->
-<!--1. **Accident Trends Over Time:** Line charts showing the number of accidents per month, quarter, and year.
-2. **Accident Hotspots:** Heatmaps and geographic visualizations highlighting areas with the highest accident frequencies.
-3. **Severity Analysis:** Bar and pie charts displaying the distribution of accident severity (e.g., minor, severe, fatal).
-4. **Contributing Factors:** Interactive dashboards revealing primary causes of accidents.
-<!-- 5. **Weather and Road Condition Impact:** Dual-axis charts correlating weather and road conditions with accident occurrences.  -->
+## Key Visualizations
+1. **KPI and Area Chart:** Displays the number of accidents, total casualties, fatal casualties, serious casualties, and slight casualties for the current and previous year.
+2. **KPI for Casualties by Vehicle Type:** Highlights the distribution of casualties based on the type of vehicle involved.
+3. **Pie Chart for Casualties by Weather Type:** Illustrates how weather conditions affect the number of casualties.
+4. **Pie Chart for Casualties by Road Surface Type:** Shows the distribution of casualties based on the type of road surface.
+5. **Bar Chart for Casualties by Road Type:** Visualizes casualties across different road types.
+6. **Filters:** Interactive filters for selecting the current year, previous year, and specific types of casualties.
+
+
 
 ## Tools and Technologies
 - **Tableau:** For creating interactive dashboards and visualizations.
@@ -34,12 +41,6 @@ The dataset used in this project includes the following attributes:
 2. **Data Cleaning:** Addressed missing values, standardized formats, and removed outliers.
 3. **Data Visualization:** Created dashboards in Tableau to highlight patterns and trends.
 4. **Insights Generation:** Derived key takeaways and recommendations based on visualizations.
-
-## Key Insights
-- Most accidents occurred during peak traffic hours.
-- Severe accidents were more frequent under poor weather and road conditions.
-- Urban areas had higher accident rates compared to rural areas.
-- Speeding and distracted driving were the leading causes of accidents.
 
 ## Challenges
 - Handling incomplete or inconsistent data.
